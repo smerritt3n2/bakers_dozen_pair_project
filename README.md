@@ -1,2 +1,2 @@
-# dr-gilbert-andrews-project
- Pairs Project - Samuel & Kyle
+# bakers_dozen_pair_project
+ Pairs Project
