@@ -1,0 +1,159 @@
+/*=====================================================================================
+Settings/ Style for "Upper Content" Index Page
+=======================================================================================*/
+
+@import 'global-variables';
+
+.icon-container {
+    color: $blue;
+    display: flex;
+    justify-content: center;
+    .icon-inner {
+        text-align: center;
+        padding: 20px;
+        margin: 0 20px;
+        i {font-size: 35px;}
+        h1 {
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.hr-length {
+    background-color: $blue;
+    width: 240px;
+    height: 2px;
+    margin: auto;
+}
+
+.est-container {
+    color: $blue;
+    text-align: center;
+    h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+    .est-inner {
+        display: flex;
+        justify-content: center;
+        img {
+            border-radius: 800px;
+            border: solid $white;
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            z-index: 10000;
+        }
+        .est-inner2 {
+            flex-direction: column;
+            width: 600px;
+            display: flex;
+            p {font-weight: bolder;}
+        }
+    }
+}
+
+.circle1 {
+    background-color: $blue;
+    border-radius: 50%;
+    border: solid $white;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 250px;
+    bottom: 170px;
+    z-index: -1;
+}
+
+.circle2 {
+    background-color: $peach;
+    border-radius: 50%;
+    border: solid $white;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 370px;
+    bottom: 520px;
+    z-index: -2;
+}
+
+/*=====================================================================================
+Settings/ Style for "Lower Content" Index Page
+=======================================================================================*/
+
+.pro-gal-container {
+    background-color: $peach;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        margin: 15px auto;
+        color: $blue;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    button {
+        color: $white;
+        background-color: $blue;
+        border-color: none;
+        margin: 20px auto;
+        border-radius: 20px;
+        padding: 10px;
+        width: 180px;
+        font-weight: bolder;
+    }
+    .pro-container {
+        display: flex;
+        justify-content: space-evenly;
+        i {margin-top: 45px;}
+        .pro-details {
+            flex-direction: column;
+            text-align: center;
+            img {
+                border-radius: 50%;
+                border: solid $blue;
+                width: 100px;
+                height: 100px;
+            }
+            p {
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.cus-gal-container {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        margin: 15px auto;
+        color: $blue;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .cus-details {
+        display: flex;
+        text-align: center;
+        font-weight: bolder;
+        width: 750px;
+        margin: auto;
+        i {margin: 10px;}
+        p {padding: 15px;}
+        .cus-author {
+            display: flex;
+            width: fit-content;
+            margin-left: auto;
+            h1 {
+                margin-left: 10px;
+                font-weight: bolder;
+            }
+            span {
+                background-color: $blue;
+                width: 30px;
+                height: 1px;
+                margin: auto;
+            }
+        }
+    }
+}
