@@ -39,22 +39,22 @@
             
             <h2>Contact us directly!</h2>
             <!--======================= Contact Us From =======================-->
-            <form action="../inc/form_page.php">
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Your Name...">
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+                <label for="name">Name:<star> *</star></label><label class="validation-error hide" id="nameValidationError">This field is required</label>
+                <input type="text" id="name" placeholder="Your Name..." required>
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" placeholder="Your Email...">
+                <label for="email">Email:<star> *</star></label><label class="validation-error hide" id="emailValidationError">Invalid Email Address</label>
+                <input type="email" id="email" placeholder="Your Email..." required>
 
-                <label for="telephone">Telephone Number:</label>
-                <input type="text" id="telephone" placeholder="Your Name...">
+                <label for="telephone">Telephone Number:<star> *</star></label><label class="validation-error hide" id="phoneValidationError">Invalid Phone Number</label>
+                <input type="text" id="telephone" placeholder="Your Name..."required maxlength="11">
 
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message to us..."></textarea>
 
                 <span>
                     <input type="checkbox" id="GDPR ">
-                    <label for="GDPR ">GDPR</label><br>
+                    <label for="GDPR ">You agree to the <a href="#" target="_blank">terms of use</a> and acknowledge the <a href="#" target="_blank">privacy policy</a></label><br>
                 </span>
 
                 <div class="g-recaptcha" id="rcaptcha"  data-sitekey="site key"></div>
@@ -73,6 +73,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="../js/leaflet.js"></script>
+
+    <!-- Form Fubmits Functions -->
+    <script src="../js/email.js"></script>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 /*=====================================================================================
-Settings/ Style for "Upper Content" Index Page
+Settings/ Style for "Contact Form" contact us Page
 =======================================================================================*/
 
 @import 'global-variables';
@@ -77,8 +77,20 @@ Settings/ Style for "Upper Content" Index Page
     form {
         display: flex;
         flex-direction: column;
+        star {
+            color: $orange;
+        }
     }
     input[type=text], select, textarea { // Applies to all that have "text" in the types value
+        padding: 15px;
+        border: 1px solid $gray;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        font-weight: bolder;
+      }
+      input[type=email] {
         padding: 15px;
         border: 1px solid $gray;
         border-radius: 4px;
@@ -121,4 +133,16 @@ Settings/ Style for "Upper Content" Index Page
 
 .leaflet-popup-content-wrapper {
     font-weight: bolder;
+}
+
+/*=====================================================================================
+Settings/ Style for "Error + Success Message"
+=======================================================================================*/
+.hide {
+    display: none;
+}
+
+.validation-error {
+    color: $red;
+    margin-left: 5px;
 }
