@@ -1,0 +1,101 @@
+/*=====================================================================================
+Settings/ Style for "Product List" Orders Page
+=======================================================================================*/
+
+@import 'global-variables';
+
+.order-layout {
+    display: flex;
+    flex-direction: column;
+    background-color: $peach;
+    h2 {margin: 10px auto;}
+    hr {width: 300px;}
+}
+
+.product-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    .product-item {
+        width: 300px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        border: solid 1px;
+        border-radius: 10px;
+        background-color: $white;
+        text-align: center;
+        font-weight: bolder;
+        img {
+            width: inherit;
+            height: 300px;
+            margin-bottom: 10px;
+            border-radius: inherit;
+        }
+        span {margin-bottom: 10px;}
+        button {
+            font-weight: bolder;
+            margin-left: 10px;
+        }
+    }
+}
+
+/*=====================================================================================
+Settings/ Style for "Basket System"
+=======================================================================================*/
+
+.section-header {
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: $blue; 
+}
+
+.basket-container {
+    margin: 10px auto;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: $white;
+    padding: 10px;
+    width: 500px;
+    h2 {margin: auto;}
+    .basket-total {
+        margin: 10px 0;
+        font-weight: bolder;
+        display: flex;
+        justify-content: space-around;
+        button {
+            font-weight: bolder;
+            background-color: $blue;
+            color: $white;
+        }
+    }
+}
+
+.basket-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-weight: bolder;
+    .basket-item {
+        text-align: center;
+        img {border-radius: 50%;}
+    }
+    .basket-column {
+        max-width: 130px;
+        width: 130px;
+        text-align: center;
+        input {
+            width: 65px;
+            margin-bottom: 10px;
+            font-weight: bolder;
+        }
+        button {
+            font-weight: bolder;
+            background-color: $orange;
+            color: $white;
+        }
+    }
+}
