@@ -8,11 +8,17 @@
   <link rel="stylesheet" href="css/nmcss.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4900ec6f7f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+
+<!-- Main Navigational Bar -->
+<?php include("inc/navigation.php"); ?>
+<!-- Order Content -->
 <?php include("inc/order.php"); ?>
+<!-- Main Footer -->
+<?php include("inc/footer.php"); ?>
 
 </body>
 </html>

@@ -1,0 +1,307 @@
+//Misc
+
+.fa-stack {
+    display: flex;
+    margin-top: 25px;
+}
+ul {
+    list-style-type: none;
+    letter-spacing: 1.5px;
+}
+.user {
+    font-size: 12px;
+    color: #333a57;
+    font-family: sans-serif;
+}
+.img {
+    border-radius: 50%;
+    width: 480px;
+    margin-left: 8px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+//header
+
+.Main-Navigation {
+    display: flex;
+    justify-content: center;
+    width: 1903px;
+    height: 110px;
+    background-color:#52658f;
+}
+.NavBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+    height: 80px;
+    flex-wrap: nowrap;
+    color: #fafae1;
+    font-family:sans-serif;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.headlogo {
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    height: 64px;
+    width: 307px;
+    font-size: 46px;
+    font-style: italic;
+    margin-left: 25px;
+    margin-top: 25px;
+    color: #fafae1;
+    font-family: 'Damion';
+}
+.headeranchor {
+    text-decoration: none;
+    color: #fafae1;
+    &:hover {
+        text-decoration: underline #f7882f ;
+        text-decoration-thickness: 0.25em;
+    }
+}
+
+
+//Title box
+
+.titlebox {
+    width: 1903px;
+    max-height: 150px;
+    background-color: #f7882f;
+}
+.titleinner {
+    max-width: 1903px;
+    max-height: 150px;
+    background-color: #f7882f;
+    margin-left: 75px;
+}
+.h1title {
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #333a57;
+    margin-top: 60px;
+}
+
+//Main
+
+.mainbox {
+    display: flex;
+    max-width: 1903px;
+    max-height: 970px;
+    background-color: #fafae1;
+    margin-top: 60px;
+}
+
+//Bubbles
+
+p.bubble {
+	position: relative;
+    max-width: 300px;
+    max-height: 85px;
+	text-align: center;
+	line-height: 1.4em;
+	margin: 40px auto;
+    background-color: white;
+    color: #f7882f;
+	border: 8px solid #333a57;
+	border-radius: 30px;
+	font-family: 'Damion';
+	padding: 20px;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+p.bubble:before,
+p.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+p.speech:before {
+	right: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333a57 transparent transparent #333a57;
+}
+p.speech:after {
+	right: 38px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: white transparent transparent white;
+}
+
+
+//Review Columns
+
+.Reviewsleft {
+    display: flex;
+    max-width: 630px;
+    max-height: 970px;
+    background-color: #fafae1;
+}
+.Reviewsmiddle {
+    display: flex;
+    max-width: 630px;
+    max-height: 970px;
+    background-color: #fafae1;
+}
+.Reviewsright {
+    display: flex;
+    max-width: 630px;
+    max-height: 970px;
+    background-color: #fafae1; 
+}
+
+//Joe Bloggs 
+
+.joebloggsbox {
+display: flex;
+flex-direction: column;
+width: 500px;
+height: 400px;
+border: none;
+background-color: #52658f;
+margin-left: 125px;
+}
+
+.joebloggsP
+{
+    display: flex;
+    width: 350px;
+    margin-left: 80px;
+}
+
+//Party Planners
+
+.partyplannerbox {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    border: none;
+    background-color: #52658f;
+    margin-left: 75px;  
+}
+.partyP {
+    display: flex;
+    width: 350px;
+    margin-left: 80px; 
+}
+
+//Food Blogger
+
+.bloggerbox {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    border: none;
+    background-color: #52658f;
+    margin-left: 80px;   
+}
+.bloggerP {
+    display: flex;
+    width: 350px;
+    margin-left: 80px; 
+}
+
+
+//Footer 
+
+.FooterMain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1903px;
+    height: 330px;
+    background-color: #52658f;
+    margin-top: 200px;
+}
+.footerinner {
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 1500px;
+height: 220px;
+background-color: #52658f;
+color: #fafae1;
+font-family: sans-serif;
+margin-left: 150px;
+letter-spacing: 0.4px;
+
+}
+.addresscol {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 220px;
+    background-color: #52658f;
+    font-size: 18px;
+    
+}
+.h2address {
+    display: flex;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+.contactlist {
+    padding: 5px;
+}
+.openingcol {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 220px;
+    background-color: #52658f;
+    font-size: 18px;
+    margin-right: 75px;
+    
+}
+.h2open {
+    display: flex;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+.sectioncol {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 220px;
+    background-color: #52658f;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.h2section {
+    display: flex;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+.sectionanchor {
+    text-decoration: none;
+    color: #fafae1;
+}
+.copyrow {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #fafae1;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    margin-left: 725px;
+
+}
+
+

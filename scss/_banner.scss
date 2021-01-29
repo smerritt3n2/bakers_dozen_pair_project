@@ -1,0 +1,72 @@
+//Banner
+
+.BannerMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1903px;
+    height: 440px;
+    background-color:#333a57;
+}
+.bannertext {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fafae1;
+    color: #333a57;
+    width: 1050px;
+    height: 440px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius:200px;
+    letter-spacing: 0.4px;
+    border-right: solid #333a57 10px;
+}
+.bannerh1 {
+    display: flex;
+    width: 700px;
+    height: 92px;
+    font-family: 'Damion';
+    font-style: italic;
+    font-size: 88px;
+    margin-left: 150px;
+}
+.bannerp {
+    display: flex;
+    width: 700px;
+    height: 80px;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin-left: 150px;
+}
+
+.btntxt {
+    display:flex;
+    margin-left: 75px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.OrderBtn {
+    display: flex;
+    justify-self: center;
+    background-color: #f7882f;
+    color: #fafae1;
+    width: 350px;
+    height: 65px;
+    border-radius: 25px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 150px;
+}
+.bannerimage {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1200px;
+    height: 440px;
+    border-top-left-radius: -100px;
+    border-bottom-left-radius: -100px;
+    margin-left: 750px;
+}

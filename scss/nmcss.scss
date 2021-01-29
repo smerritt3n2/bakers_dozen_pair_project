@@ -7,12 +7,12 @@ for the "nmcss.css" file
 @import 'global-variables';
 body {
     margin: 0;
-    width: auto;
+    width: fit-content;
 }
 
 
 /*=====================================================================================
-External Page Settings
+External Page Settings (Samuel's Code)
 =======================================================================================*/
 
 @import 'content.scss';
@@ -21,7 +21,19 @@ External Page Settings
 @import 'orders.scss';
 
 /*=====================================================================================
+External Page Settings (Rhians Code)
+=======================================================================================*/
+
+@import 'misc_repeat.scss';
+@import 'header.scss';
+@import 'banner.scss';
+@import 'proudBox.scss';
+@import 'footer.scss';
+@import 'about.scss';
+@import 'testimonials.scss';
+
+/*=====================================================================================
 Media Settings
 =======================================================================================*/
 
-@import 'media.scss';
+@import 'media.scss'; // S.M. Media

@@ -1,0 +1,40 @@
+//Proud Box
+
+.ProudBox {
+    display: flex;
+    max-width: 1903px;
+    height: 300px;
+    color: white;
+}
+.proudinner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 675px;
+    max-height: 200px;
+    color: #52658f;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 45px;
+    
+}
+.btntxt2 {
+    display:flex;
+    margin-left: 75px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.OrderBtn2 {
+    display: flex;
+    background-color: #f7882f;
+    color: #fafae1;
+    width: 350px;
+    height: 65px;
+    border-radius: 25px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 150px;
+}

@@ -1,0 +1,43 @@
+//header
+
+.Main-Navigation {
+    display: flex;
+    justify-content: center;
+    width: 1903px;
+    height: 110px;
+    background-color:#52658f;
+}
+.NavBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+    height: 80px;
+    flex-wrap: nowrap;
+    color: #fafae1;
+    font-family:sans-serif;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.headlogo {
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    height: 64px;
+    width: 307px;
+    font-size: 46px;
+    font-style: italic;
+    font-family: 'Damion';
+    margin-left: 25px;
+    margin-top: 25px;
+    color: #fafae1;
+}
+.headeranchor {
+    text-decoration: none;
+    color: #fafae1;
+    &:hover {
+        text-decoration: underline #f7882f ;
+        text-decoration-thickness: 0.25em;
+    }
+}
