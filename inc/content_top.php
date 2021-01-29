@@ -21,7 +21,7 @@
 
         <div class="est-inner">
             <div class="est-inner2">
-                <img src="../img/cupcake-circle.png" alt="cupcakes">
+                <img src="img/cupcake-circle.png" alt="cupcakes">
                 <div class="circle1"></div>
                 <div class="circle2"></div>
             </div>

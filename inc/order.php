@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Baker's Dozen</title>
-  <link rel="stylesheet" href="../css/nmcss.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/4900ec6f7f.js" crossorigin="anonymous"></script>
 
-  <script src="../js/orders.js" async></script>
-</head>
-<body>
+<script src="js/orders.js" async></script>
 
     <div class="title">
         <h1>Order Online for our tasty treats!</h1>
@@ -46,7 +33,7 @@
         <section class="order-layout">
             <div class="product-items">
                 <div class="product-item">
-                    <img class="product-image" src="../img/orders/fairy_cupcake.png">
+                    <img class="product-image" src="img/orders/fairy_cupcake.png">
                     <span class="product-name">Fairy Cupcake</span>
                     <div class="product-item-details">
                         <span class="product-price">$4.99</span>
@@ -54,7 +41,7 @@
                     </div>
                 </div>
                 <div class="product-item">
-                    <img class="product-image" src="../img/orders/rainbow_cake.png">
+                    <img class="product-image" src="img/orders/rainbow_cake.png">
                     <span class="product-name">Rainbow Cake</span>
                     <div class="product-item-details">
                         <span class="product-price">$10.99</span>
@@ -62,7 +49,7 @@
                     </div>
                 </div>
                 <div class="product-item">
-                    <img class="product-image" src="../img/orders/fairy_cupcake.png">
+                    <img class="product-image" src="img/orders/fairy_cupcake.png">
                     <span class="product-name">Fairy Cupcake</span>
                     <div class="product-item-details">
                         <span class="product-price">$4.99</span>
@@ -70,7 +57,7 @@
                     </div>
                 </div>
                 <div class="product-item">
-                    <img class="product-image" src="../img/orders/rainbow_cake.png">
+                    <img class="product-image" src="img/orders/rainbow_cake.png">
                     <span class="product-name">Rainbow Cake</span>
                     <div class="product-item-details">
                         <span class="product-price">$10.99</span>
@@ -85,7 +72,7 @@
             <h2>Pastries</h2>
             <div class="product-items">
                 <div class="product-item">
-                    <img class="product-image" src="../img/orders/danish_pastries.png">
+                    <img class="product-image" src="img/orders/danish_pastries.png">
                     <span class="product-name">Danish Pastries</span>
                     <div class="product-item-details">
                         <span class="product-price">$7.99</span>
@@ -93,7 +80,7 @@
                     </div>
                 </div>
                 <div class="product-item">
-                    <img class="product-image" src="../img/orders/apple_cinnamon.png">
+                    <img class="product-image" src="img/orders/apple_cinnamon.png">
                     <span class="product-name">Cinnamon Apples</span>
                     <div class="product-item-details">
                         <span class="product-price">$2.99</span>
@@ -104,5 +91,3 @@
         </section>
         <!--========================================================================================================-->
     </div>
-</body>
-</html>

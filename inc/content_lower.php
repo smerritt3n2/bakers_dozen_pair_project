@@ -4,15 +4,15 @@
         <div class="pro-container">
             <span class="indicator"><i class="fas fa-chevron-left"></i></span>
             <div class="pro-details">
-                <img src="../img/breads.png" alt="bread">
+                <img src="img/breads.png" alt="bread">
                 <p>Savoury Breads</p>
             </div>
             <div class="pro-details">
-                <img src="../img/pastries.png" alt="pastries">
+                <img src="img/pastries.png" alt="pastries">
                 <p>Pastries</p>
             </div>
             <div class="pro-details">
-                <img src="../img/cakes.png" alt="cakes">
+                <img src="img/cakes.png" alt="cakes">
                 <p>Cakes</p>
             </div>
             <span class="indicator"><i class="fas fa-chevron-right"></i></span>
@@ -92,4 +92,4 @@
     </div>
 
     <!-- JavaScript for Customer Gallery -->
-    <script src="../js/customer_gallery.js"></script>
+    <script src="js/customer_gallery.js"></script>
