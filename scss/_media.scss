@@ -1,8 +1,99 @@
 /*=====================================================================================
-Settings for variables 
-to be able to adapt to changes
+Settings for variables to be able to adapt to changes
 =======================================================================================*/
 
-/*============================= Contact Page/ Style ===================================*/
+/*============================= index Page/ Style ===================================*/
+
+/* Applies New Setting, Styles and Positions to Windows that are at 1024 Resolution */
+@media (min-width: 770px) and (max-width: 1024px) {
+    .est-container {
+        justify-content: space-between;
+        .est-inner2 { /* Adjusts box container */
+            img {
+                width: 200px !important;
+                height: 200px !important;
+            }
+            .circle1 {
+                width: 150px;
+                height: 150px;
+                left: 250px;
+                bottom: 130px;
+            }
+            .circle2 {
+                width: 100px;
+                height: 100px;
+                left: 300px;
+                bottom: 350px;
+            }
+        } 
+    }
+  }
+
+/* Applies New Setting, Styles and Positions to Windows that are at 768 Resolution */
+@media (min-width: 430px) and (max-width: 768px) {
+    .est-inner2 { /* Adjusts box container */
+        width: 360px;
+        img {
+            width: 200px !important;
+            height: 200px !important;
+        }
+        .circle1 {
+            width: 150px;
+            height: 150px;
+            left: 190px;
+            bottom: 190px;
+        }
+        .circle2 {
+            width: 100px;
+            height: 100px;
+            left: 250px ;
+            bottom: 420px ;
+        }
+    } 
+  }
+
+/* Applies New Setting, Styles and Positions to Windows that are at 608 Resolution */
+@media (max-width: 425px) {
+    body {width: fit-content;}
+    .est-inner { /* Adjusts box container */
+        width: inherit ;
+        flex-direction: column;
+        align-items: center;
+    }
+    .est-inner2 {
+        width: 360px;
+        .circle1 {
+            left: 240px ;
+            bottom: 80px ;
+        }
+        .circle2 {
+            left: 370px ;
+            bottom: 425px ;
+        }
+        img {
+            position: relative;
+            top: 90px ;
+        }
+    }
+    .contactUs-detail {
+        .con-1 {
+            grid-column-start: 1;
+        }
+        .con-2 {
+            grid-column-start: 1;
+            grid-row-start: 3;
+            grid-row-end: 3;
+        }
+    }
+  }
+
+  @media (max-width: 624px) {
+      .product-items {
+          grid-template-columns: auto;
+      }
+      .basket-container {
+          width: fit-content;
+      }
+  }
 
 /*=====================================================================================*/

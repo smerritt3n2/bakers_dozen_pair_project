@@ -7,6 +7,7 @@ for the "nmcss.css" file
 @import 'global-variables';
 body {
     margin: 0;
+    width: auto;
 }
 
 
@@ -23,4 +24,4 @@ External Page Settings
 Media Settings
 =======================================================================================*/
 
-@import 'media';
+@import 'media.scss';
