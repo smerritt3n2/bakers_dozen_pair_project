@@ -12,5 +12,8 @@
 </head>
 <body>
   
+<?php include("inc/content_top.php"); ?>
+<?php include("inc/content_lower.php"); ?>
+
 </body>
 </html>
