@@ -2,7 +2,7 @@
     <div class="pro-gal-container">
         <h1>Our Products</h1>
         <div class="pro-container">
-            <span class="indicator"><i class="fas fa-chevron-left"></i></span>
+            <span class="indicator"><i class="fas fa-chevron-left i-left"></i></span>
             <div class="pro-details">
                 <img src="img/breads.png" alt="bread">
                 <p>Savoury Breads</p>
@@ -15,7 +15,7 @@
                 <img src="img/cakes.png" alt="cakes">
                 <p>Cakes</p>
             </div>
-            <span class="indicator"><i class="fas fa-chevron-right"></i></span>
+            <span class="indicator"><i class="fas fa-chevron-right i-right"></i></span>
         </div>
         <button>FIND OUT MORE</button>
     </div>

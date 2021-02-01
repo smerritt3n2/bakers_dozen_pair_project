@@ -7,12 +7,12 @@ Settings/ Style for "Upper Content" Index Page
 .icon-container {
     color: $blue;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     .icon-inner {
         text-align: center;
         padding: 20px;
         margin: 0 20px;
-        i {font-size: 35px;}
+        i {font-size: 45px;}
         h1 {
             font-size: 20px;
             text-transform: uppercase;
@@ -45,12 +45,12 @@ Settings/ Style for "Upper Content" Index Page
             width: 300px;
             height: 300px;
             z-index: 10000;
+            position: absolute;
         }
         .est-inner2 {
             flex-direction: column;
             width: 600px;
             display: flex;
-            p {font-weight: bolder;}
         }
     }
 }
@@ -62,8 +62,8 @@ Settings/ Style for "Upper Content" Index Page
     width: 250px;
     height: 250px;
     position: relative;
-    left: 250px;
-    bottom: 170px;
+    left: 150px;
+    top: 100px;
     z-index: -1;
 }
 
@@ -74,8 +74,8 @@ Settings/ Style for "Upper Content" Index Page
     width: 150px;
     height: 150px;
     position: relative;
-    left: 370px;
-    bottom: 520px;
+    left: 220px;
+    bottom: 240px;
     z-index: -2;
 }
 
@@ -89,8 +89,9 @@ Settings/ Style for "Lower Content" Index Page
     flex-direction: column;
     h1 {
         margin: 15px auto;
+        margin-bottom: 50px;
         color: $blue;
-        font-size: 15px;
+        font-size: 22px;
         text-transform: uppercase;
     }
     button {
@@ -112,11 +113,12 @@ Settings/ Style for "Lower Content" Index Page
             img {
                 border-radius: 50%;
                 border: solid $blue;
-                width: 100px;
-                height: 100px;
+                width: 250px;
+                height: 250px;
             }
             p {
                 font-weight: bolder;
+                font-size: 25px;
             }
         }
     }
@@ -124,16 +126,23 @@ Settings/ Style for "Lower Content" Index Page
 
 .indicator {
     cursor: pointer;
-    margin-top: 45px;
-    height: 25px;
-    width: 25px;
-    background-color: $blue;
-    color: $white;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 45px;
+    width: 45px;
+    background-color: #52658f;
+    color: #fff;
     border-radius: 50%;
     text-align: center;
-    i {
-        margin-right: 2px;
-        margin-top: 4px;
+    .i-left {
+        margin-right: 5px;
+        margin-top: 7px;
+        font-size: 30px;
+    }
+    .i-right {
+        margin-left: 5px;
+        margin-top: 7px;
+        font-size: 30px;
     }
 }
 
@@ -143,7 +152,7 @@ Settings/ Style for "Lower Content" Index Page
     h1 {
         margin: 15px auto;
         color: $blue;
-        font-size: 15px;
+        font-size: 22px;
         text-transform: uppercase;
     }
     .cus-details {
@@ -153,7 +162,7 @@ Settings/ Style for "Lower Content" Index Page
         width: 750px;
         margin: auto;
         i {margin: 10px;}
-        p {padding: 15px;}
+        p {padding: 15px;font-weight: 100;}
         .cus-author {
             display: flex;
             width: fit-content;
@@ -161,6 +170,7 @@ Settings/ Style for "Lower Content" Index Page
             h1 {
                 margin-left: 10px;
                 font-weight: bolder;
+                font-size: 15px;
             }
             span {
                 background-color: $blue;

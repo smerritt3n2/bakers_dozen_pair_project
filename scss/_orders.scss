@@ -18,6 +18,9 @@ Settings/ Style for "Product List" Orders Page
     grid-gap: 10px;
     padding: 10px;
     justify-content: space-evenly;
+    width: fit-content;
+    margin: auto;
+    .product-name {font-weight: bolder;}
     .product-item {
         width: 300px;
         height: 380px;
@@ -27,7 +30,6 @@ Settings/ Style for "Product List" Orders Page
         border-radius: 10px;
         background-color: $white;
         text-align: center;
-        font-weight: bolder;
         img {
             width: inherit;
             height: 300px;
@@ -36,7 +38,6 @@ Settings/ Style for "Product List" Orders Page
         }
         span {margin-bottom: 10px;}
         button {
-            font-weight: bolder;
             margin-left: 10px;
         }
     }
@@ -63,11 +64,9 @@ Settings/ Style for "Basket System"
     h2 {margin: auto;}
     .basket-total {
         margin: 10px 0;
-        font-weight: bolder;
         display: flex;
         justify-content: space-around;
         button {
-            font-weight: bolder;
             background-color: $blue;
             color: $white;
         }
