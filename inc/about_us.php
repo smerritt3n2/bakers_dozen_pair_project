@@ -10,7 +10,7 @@
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </P>
-        <a class="home" href="index.html"><button class="hmebtn"><i class="fas fa-arrow-left" style="color: #fafae1;"></i>       
+        <a class="home" href="index.php"><button class="hmebtn"><i class="fas fa-arrow-left"></i>       
            <strong><span class="btntxt">Home</span></strong></button></a>
     </span>
 </div>

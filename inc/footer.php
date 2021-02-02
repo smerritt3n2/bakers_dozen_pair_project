@@ -23,11 +23,11 @@
         <div class="sectioncol">
         <h2 class="h2section"><strong>SECTIONS</strong></h2>
             <ul class="sectionlist">
-                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right" style="color: #fafae1;"></i>About</li></a>
-                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right" style="color: #fafae1;"></i>Products</li></a>
-                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right" style="color: #fafae1;"></i>Testimonials</li></a>
-                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right" style="color: #fafae1;"></i>Order</li></a>
-                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right" style="color: #fafae1;"></i>Privacy Policy</li></a>
+                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right"></i>About</li></a>
+                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right"></i>Products</li></a>
+                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right"></i>Testimonials</li></a>
+                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right"></i>Order</li></a>
+                <a href="#" class="sectionanchor"><li><i class="fas fa-angle-right"></i>Privacy Policy</li></a>
             </ul>
         </div>
     </div>

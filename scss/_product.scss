@@ -1,0 +1,37 @@
+/*=====================================================================================
+Settings/ Style for "Product List" Orders Page
+=======================================================================================*/
+
+@import 'global-variables';
+
+.product-container {
+    color: $blue;
+    h1 {text-align-last: center;}
+    .product-inner {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        .product-inner2 {
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            img {
+                border-radius: 10px;
+                width: 300px;
+                height: 300px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .product-detail {
+                padding:15px;
+                h1 {
+                    text-align-last: left;
+                    margin: 0;
+                }
+                hr {
+                    width: 100px; 
+                    margin: inherit;
+                }
+            }
+        }
+    }
+}
