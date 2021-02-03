@@ -26,7 +26,7 @@
             
             <h2>Contact us directly!</h2>
             <!--======================= Contact Us From =======================-->
-            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off" id="recaptch-form" >
                 <label for="name">Name:<star> *</star></label><label class="validation-error hide" id="nameValidationError">This field is required</label>
                 <input type="text" id="name" placeholder="Your Name..." required>
 
@@ -44,7 +44,7 @@
                     <label for="GDPR ">You agree to the <a href="#" target="_blank">terms of use</a> and acknowledge the <a href="#" target="_blank">privacy policy</a></label><br>
                 </span>
 
-                <div class="g-recaptcha" id="rcaptcha"  data-sitekey="site key"></div>
+                <div class="g-recaptcha" id="rcaptcha"  data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
 
                 <input type="submit" value="Submit">
             </form>

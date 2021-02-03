@@ -23,6 +23,7 @@ function submit() {
     formData["telephone"] = document.getElementById("telephone").value;
     formData["message"] = document.getElementById("message").value;
     formData["GDPR"] = document.getElementById("GDPR");
+    formData["recaptch"] = document.getElementById("rcaptcha");
     return formData;
 }
  /*================================================*/

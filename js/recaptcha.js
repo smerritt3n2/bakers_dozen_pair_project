@@ -1,16 +1,16 @@
 /*================================================
  * Main JavaScript Engine
  =================================================*/
-function get_action(form) {
-    var v = grecaptcha.getResponse();
-    if(v.length == 0){
-        document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
-        return false;
-    }
-    else {
-        document.getElementById('captcha').innerHTML="Captcha completed";
-        return true; 
-    }
-}
- /*================================================*/
+ document.getElementById("recaptch-form").addEventListener("submit",function(evt) // Listens for form submit event
+ {
+ 
+ var response = grecaptcha.getResponse();
+ if(response.length == 0) { 
+   //reCaptcha not verified
+   alert("please verify you are humann!"); 
+   evt.preventDefault();
+   return false;
+ }
+});
+/*================================================*/
 
